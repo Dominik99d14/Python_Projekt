@@ -1,0 +1,28 @@
+    1 2021-09-30 23:00 - Dostęp użytkownika                             K:WEJŚCIE  (20h)     U:A Adam              
+    2 2021-09-30 15:00 - Dostęp użytkownika                             K:WEJŚCIE  (20h)     U:A Adam              
+    3 2021-09-30 14:59 - Dostęp użytkownika                             K:WEJŚCIE  (20h)     U:D Nowak              
+    4 2021-09-30 14:58 - Dostęp użytkownika                             K:WEJŚCIE  (20h)     U:K Perz              
+    5 2021-09-30 14:55 - Dostęp użytkownika                             K:WEJŚCIE  (20h)     U:J Lebek              
+    6 2021-09-30 14:30 - Dostęp użytkownika                             K:WEJŚCIE  (20h)     U:P Piotrowski              
+    7 2021-09-30 13:33 - Dostęp użytkownika                             K:WEJŚCIE  (20h)     U:D Nowak              
+    8 2021-09-30 13:30 - Dostęp użytkownika                             K:WEJŚCIE  (20h)     U:D Nowak              
+    9 2021-09-30 13:08 - Dostęp użytkownika                             K:WEJŚCIE  (20h)     U:J Lebek                
+   10 2021-09-30 13:01 - Dostęp użytkownika                             K:WEJŚCIE  (20h)     U:J Lebek                
+   11 2021-09-30 12:21 - Dostęp użytkownika                             K:WEJŚCIE  (20h)     U:K Perz                
+   12 2021-09-30 11:59 - Dostęp użytkownika                             K:WEJŚCIE  (20h)     U:K Perz                
+   13 2021-09-16 10:58 - Wyjście użytkownika                            K:SALA KONF  (21h)   U:K Perz 
+   14 2021-09-13 10:35 - Otwarcie drzwi                                 S:Magazyn            M:WEJŚCIE  (20h)         
+   15 2021-09-13 10:35 - Otwarcie drzwi z manipulatora LCD              LCD:WEJSCIE PRODUKCJ U:Serwis                 
+   16 2021-09-12 10:31 - Dostęp zabroniony                              K:WEJŚCIE  (20h)     U:K Perz                 
+   17 2021-09-07 10:30 - Czasowa blokada klawiatury                     LCD:MAGAZYNY                                  
+   18 2021-09-07 10:30 - 3 błędne hasła                                 S:Magazyn,           LCD:MAGAZYNY             
+   19 2021-09-30 9:00 - Dostęp użytkownika                             K:WEJŚCIE  (20h)     U:D Kowalczyk                
+   20 2021-09-30 8:45 - Dostęp użytkownika                             K:WEJŚCIE  (20h)     U:D Kowalczyk                
+   21 2021-09-30 7:15 - Dostęp użytkownika                             K:WEJŚCIE  (20h)     U:P Piotrowski                
+   22 2021-09-13 7:02 - Otwarcie drzwi                                 S:Magazyn            M:WEJŚCIE  (20h)         
+   23 2021-09-13 7:02 - Otwarcie drzwi z manipulatora LCD              LCD:WEJSCIE PRODUKCJ U:Serwis                 
+   24 2021-09-30 6:56 - Dostęp użytkownika                             K:WEJŚCIE  (20h)     U:D Nowak                
+   25 2021-09-30 6:45 - Dostęp użytkownika                             K:WEJŚCIE  (20h)     U:K Perz                
+   26 2021-09-30 6:38 - Dostęp użytkownika                             K:WEJŚCIE  (20h)     U:J Lebek                
+
+
