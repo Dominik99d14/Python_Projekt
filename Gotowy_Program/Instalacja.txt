@@ -1,5 +1,0 @@
-Wymagane wgranie biblioteki xlwt
-pip install xlwt
-
-Dołączone do programu są dane testowe
-Program służy do obróbki danych z systemu DLOADX
