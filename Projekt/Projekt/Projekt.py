@@ -9,7 +9,7 @@ Lista_Gotowa = []
 
 def Konwertowanie_Listy(Link_Do_Danych):
     assert os.path.exists(Link_Do_Danych), "I did not find the file at, "+str(Link_Do_Danych)
-    Plik = open(Link_Do_Danych, 'r')
+    Plik = open(Link_Do_Danych, 'r',  encoding="utf-8")
 
     Lista = Plik.readlines()
 
@@ -19,7 +19,7 @@ def Konwertowanie_Listy(Link_Do_Danych):
         X += 0
         print("Linia{}: {}".format(X, Linia.strip()))
 
-        if Linia.find('K:SALA ') != -1 or Linia.find('manipulatora ') != -1 or Linia.find('S:Magazyn   ') != -1 or Linia.find('zabroniony        ') != -1 or Linia.find('blokada ') != -1 or Linia.find('błędne ') != -1:
+        if Linia.find('K:SALA ') != -1 or Linia.find('manipulatora ') != -1 or Linia.find('S:Magazyn            ') != -1 or Linia.find('zabroniony        ') != -1 or Linia.find('blokada ') != -1 or Linia.find('błędne ') != -1:
             print('True')
         else:
             Sformatowana_Linia = ""
@@ -38,7 +38,7 @@ def Zapis_do_TXT():
     for Linia in Lista_Sformatowana:
             print(Linia)
             Plik_Sformatowany.write(Linia)
-    Print("Plik TXT został stworzony pomyślnie w folerze programu")
+    
 
 def Zapis_do_Excela():
     Linie = 0
@@ -54,11 +54,9 @@ def Zapis_do_Excela():
                 Kolumny = Kolumny+1 
                     
             XML_Plik.save('stdoutput.xls')
-    Print("Plik XML został stworzony pomyślnie w folerze programu")
 
 def Godziny_Pracownika(Pracownik):
     Godziny_Pracy = 0
-
     Pierwszy_znaleziony = 0
     for Wiersz in Lista_Gotowa:
         Pracownik_Z_Listy = Wiersz[5] + " " + Wiersz[6]
@@ -72,7 +70,6 @@ def Godziny_Pracownika(Pracownik):
                 X = Godzina_Konca - datetime.datetime(1900, 1, 1)
                 Y = Godzina_Startu - datetime.datetime(1900, 1, 1)
                 Czas_Przebywania = X.total_seconds() - Y.total_seconds()
-                print(X.total_seconds() ,'-',Y.total_seconds())
                 Godziny_Pracy = Godziny_Pracy + Czas_Przebywania 
     Wynik = Godziny_Pracy / 60
     Wynik = Wynik / 60
@@ -115,11 +112,8 @@ def Menu():
         Main()
 
 def Main():
-    try:
-        Menu()
-    except Exception as blad:
-        print("Nastąpił błąd programu. Kod błędu: ", str(blad))
-        Menu()
+    Menu()
+
     
 
 Main()
